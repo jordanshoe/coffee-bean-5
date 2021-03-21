@@ -182,7 +182,7 @@ p{
     margin-top:2em ;
     overflow: auto;
 }
-.merch .merch-gallery .merch-items{
+.merch-items{
     border: 2px solid blue;
     width: 24.25%;
     float: left;
@@ -429,6 +429,20 @@ th,td{
     }
     .ads-item1{
         margin-bottom: 3%;
+    }
+    .merch-items{
+        float: left;
+        width: 49.5%;
+    }
+    .merch-item2,.merch-item6{
+        margin-right: 0;
+    }
+    .merch-gallery img{
+        /* display: none; */
+    }
+    .footer-widgets{
+        float: none;
+        width: 100%;
     }
 }
 
